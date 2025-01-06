@@ -52,7 +52,7 @@ This notebook is designed to run on a laptop with no special hardware required. 
 
 These notebooks require some additional data from the [PINNs](https://github.com/maziarraissi/PINNs) repository.
 
-If you haven't already, then please run the following code in the LIFD_CDT_ML_NOTEBOOKS directory via the terminal (Mac or Linux)  or Git Bash (Windows):
+If you haven't already, then please run the following code in the LIFD_ENV_ML_NOTEBOOKS directory via the terminal (Mac or Linux)  or Git Bash (Windows):
 
 ```bash
 git submodule init
