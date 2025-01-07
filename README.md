@@ -37,7 +37,7 @@ These tutorials will go through solving Partial Differential Equations using Phy
 
 
 ```bash
-git clone  --recurse-submodules -j8 git@github.com:cemac/LIFD_Torch_PINNS.git
+git clone git@github.com:cemac/LIFD_Torch_PINNS.git
 cd LIFD_Torch_PINNS
 conda env create -f PINN_pytorch.yml
 conda activate PINN
@@ -48,19 +48,6 @@ jupyter-notebook
 ## Installation and Requirements
 
 This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
-
-
-These notebooks require some additional data from the [PINNs](https://github.com/maziarraissi/PINNs) repository
-
-If you have not already then in your gitbash or terminal please run the following code in the LIFD_ENV_ML_NOTEBOOKS directory via the terminal(Mac or Linux)  or git bash (windows)
-
-```bash
-git submodule init
-git submodule update --init --recursive
-```
-
-**If this does not work please clone the [PINNs](https://github.com/maziarraissi/PINNs) repository into your Physics_Informed_Neural_Networks folder on your computer**
-
 
 # Licence information #
 
