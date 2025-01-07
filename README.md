@@ -7,33 +7,33 @@
 
 # Leeds Institute for Fluid Dynamics Machine Learning For Earth Sciences #
 
-# Physics Informed Neural Networks
+# Physics-Informed Neural Networks
 
 
 [![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases)  [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_Torch_PINNS/total.svg)](https://github.com/cemac/LIFD_Torch_PINNS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_Torch_PINNS.svg)
 
-These set of notebooks explore Physics Informed Neural Networks to explore partial differential equations
+This set of computational notebooks explores how Physics-Informed Neural Networks can be applied to Partial Differential Equations (PDEs).
 
-This tutorial has been split into 3 tutorials.
+This resource consists of three tutorials split across three separate Jupyter notebooks.
 
 ## Recommended Background Reading
 
-If you are unfamiliar with some of the concepts covered in this tutorial it's recommended to read through the background reading below either as you go through the notebook or beforehand. These links are also contained within the notebooks
+If you are unfamiliar with some of the concepts covered in this tutorial, it's recommended to consult the background reading listed below, either as you go through the notebooks or beforehand. The following links are also contained within the notebooks:
 
 * [Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
-* [Physics Guided Neural Networks](https://towardsdatascience.com/physics-guided-neural-networks-pgnns-8fe9dbad9414)
-* [Physics-Informed Neural Networks:  A Deep LearningFramework for Solving Forward and Inverse ProblemsInvolving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
+* [Physics-Guided Neural Networks](https://towardsdatascience.com/physics-guided-neural-networks-pgnns-8fe9dbad9414)
+* [Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
 
 ## Quick look
 
 
 ### Quick start
 
-If you're already familiar with git, anaconda and virtual environments the environment you need to create is found in PINN.yml and the code below to install activate and launch the notebook. The .yml file has been tested on the latest linux, macOS and windows operating systems.
+If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [PINN_pytorch.yml](PINN_pytorch.yml). The code below will install, activate and launch the notebook. The .yml file has been tested on the latest linux, macOS and Windows operating systems.
 
-This notebook is based on two papers: *[Physics-Informed Neural Networks:  A Deep LearningFramework for Solving Forward and Inverse ProblemsInvolving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)* and *[Hidden Physics Models:  Machine Learning of NonlinearPartial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999117309014)* with the help of  Fergus Shone and Michael Macraild.
+This notebook is based on two papers: *[Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)* and *[Hidden Physics Models: Machine Learning of Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999117309014)* with the help of  Fergus Shone and Michael Macraild.
 
-These tutorials will go through solving Partial Differential Equations using Physics Informed Neuaral Networks focusing on the Burgers Equation and a more complex example using the Navier Stokes Equation
+These tutorials will go through solving Partial Differential Equations using Physics-Informed Neural Networks, focusing on the Burgers Equation and a more complex example using the Navier Stokes Equation.
 
 
 ```bash
@@ -47,7 +47,8 @@ jupyter-notebook
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop with no special hardware required therefore recommended to do a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required. It is therefore recommended to perform a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
+
 
 # Licence information #
 
