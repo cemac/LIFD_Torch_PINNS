@@ -21,7 +21,6 @@ This resource consists of three tutorials split across three separate Jupyter no
 If you are unfamiliar with some of the concepts covered in this tutorial, it's recommended to consult the background reading listed below, either as you go through the notebooks or beforehand. The following links are also contained within the notebooks:
 
 * [Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
-* [Physics-Guided Neural Networks](https://towardsdatascience.com/physics-guided-neural-networks-pgnns-8fe9dbad9414)
 * [Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
 
 ## Quick look
