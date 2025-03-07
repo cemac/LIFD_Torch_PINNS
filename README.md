@@ -37,7 +37,7 @@ These tutorials will go through solving Partial Differential Equations using Phy
 
 
 ```bash
-git clone git@github.com:cemac/LIFD_Torch_PINNS.git
+git clone https://github.com/cemac/LIFD_Torch_PINNS.git
 cd LIFD_Torch_PINNS
 conda env create -f PINN_pytorch.yml
 conda activate PINN
