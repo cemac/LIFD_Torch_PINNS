@@ -46,7 +46,7 @@ jupyter-notebook
 
 ## Installation and Requirements
 
-This notebook is designed to run on a laptop with no special hardware required. It is therefore recommended to perform a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
+This notebook is designed to run on a laptop with no special hardware required. It is therefore recommended to perform a local installation as outlined in the repository [howtorun](https://github.com/cemac/LIFD_CDT_ML_NOTEBOOKS/blob/main/howtorun.md) and [jupyter_notebooks](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/blob/main/jupyter_notebooks.md) sections.
 
 
 # Licence information #
