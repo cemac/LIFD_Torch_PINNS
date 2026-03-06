@@ -1,7 +1,7 @@
 name: PINN_pytorch
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - python=3.11
   - notebook
