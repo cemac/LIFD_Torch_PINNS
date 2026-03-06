@@ -10,9 +10,14 @@
 # Physics-Informed Neural Networks
 
 
-[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases)  [![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS) [![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_Torch_PINNS/total.svg)](https://github.com/cemac/LIFD_Torch_PINNS/releases) ![GitHub](https://img.shields.io/github/license/cemac/LIFD_Torch_PINNS.svg)
+[![GitHub release](https://img.shields.io/github/release/cemac/LIFD_ENV_ML_NOTEBOOKS.svg)](https://github.com/cemac/LIFD_ENV_ML_NOTEBOOKS/releases)
+[![GitHub top language](https://img.shields.io/github/languages/top/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS)
+[![GitHub issues](https://img.shields.io/github/issues/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/cemac/LIFD_Torch_PINNS.svg)](https://github.com/cemac/LIFD_Torch_PINNS/commits/master)
+[![GitHub All Releases](https://img.shields.io/github/downloads/cemac/LIFD_Torch_PINNS/total.svg)](https://github.com/cemac/LIFD_Torch_PINNS/releases)
+![GitHub](https://img.shields.io/github/license/cemac/LIFD_Torch_PINNS.svg)
 
-This set of computational notebooks explores how Physics-Informed Neural Networks can be applied to Partial Differential Equations (PDEs).
+This set of computational notebooks explores how Physics-Informed Neural Networks (PINNs) can be applied to Partial Differential Equations (PDEs).
 
 This resource consists of three tutorials split across three separate Jupyter notebooks.
 
@@ -23,10 +28,7 @@ If you are unfamiliar with some of the concepts covered in this tutorial, it's r
 * [Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
 * [Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
 
-## Quick look
-
-
-### Quick start
+## Quick Start
 
 If you're already familiar with Git, Anaconda and virtual environments, the environment you need to create is found in [PINN_pytorch.yml](PINN_pytorch.yml). The code below will install, activate and launch the notebook. The .yml file has been tested on the latest linux, macOS and Windows operating systems.
 
@@ -39,7 +41,7 @@ These tutorials will go through solving Partial Differential Equations using Phy
 git clone https://github.com/cemac/LIFD_Torch_PINNS.git
 cd LIFD_Torch_PINNS
 conda env create -f PINN_pytorch.yml
-conda activate PINN
+conda activate PINN_pytorch
 jupyter-notebook
 ```
 
